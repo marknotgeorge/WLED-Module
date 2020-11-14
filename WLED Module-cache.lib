@@ -1,6 +1,49 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Conn_01x02_Male
+#
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x03_Male
+#
+DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Conn_01x06_Male
 #
 DEF Connector_Conn_01x06_Male J 0 40 Y N 1 F N
@@ -33,6 +76,24 @@ X Pin_6 6 200 -300 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
@@ -51,6 +112,24 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Fuse
+#
+DEF Device_Fuse F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "Device_Fuse" -75 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -65,6 +144,44 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_SolderJumper_2_Open
+#
+DEF Jumper_SolderJumper_2_Open JP 0 0 Y N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Jumper_SolderJumper_2_Open" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Open*
+$ENDFPLIST
+DRAW
+A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
+A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
+A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
+A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
+P 2 0 1 0 -10 40 -10 -40 N
+P 2 0 1 0 10 40 10 -40 N
+X A 1 -150 0 100 R 50 50 1 1 P
+X B 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -138,29 +255,6 @@ S -200 -200 200 75 0 1 10 f
 X GND 1 0 -300 100 U 50 50 1 1 W
 X VO 2 300 0 100 L 50 50 1 1 w
 X VI 3 -300 0 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# SamacSys_Parts_1725669
-#
-DEF SamacSys_Parts_1725669 J 0 30 Y Y 1 F N
-F0 "J" 650 300 50 H V L CNN
-F1 "SamacSys_Parts_1725669" 650 200 50 H V L CNN
-F2 "1725669" 650 100 50 H I L CNN
-F3 "https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-itemdetail:pid=1725669&library=gben&tab=1" 650 0 50 H I L CNN
-F4 "3 way PCB vertical mount terminal,2.54mm 3 way PCB vertical mount terminal,2.54mm" 650 -100 50 H I L CNN "Description"
-F5 "8.5" 650 -200 50 H I L CNN "Height"
-F6 "Phoenix Contact" 650 -300 50 H I L CNN "Manufacturer_Name"
-F7 "1725669" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "1725669" 650 -500 50 H I L CNN "Arrow Part Number"
-F9 "https://www.arrow.com/en/products/1725669/phoenix-contact" 650 -600 50 H I L CNN "Arrow Price/Stock"
-F10 "651-1725669" 650 -700 50 H I L CNN "Mouser Part Number"
-F11 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
-DRAW
-P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
-X 1 1 0 0 200 R 50 50 0 0 P
-X 2 2 0 -100 200 R 50 50 0 0 P
-X 3 3 0 -200 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -250,61 +344,6 @@ P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
 X ~ 1 0 0 100 R 50 50 0 0 P
 X ~ 2 400 -300 100 U 50 50 0 0 P
 X ~ 3 400 300 100 D 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
-# SparkFun-Connectors_POWER_JACKPTH_BREAD
-#
-DEF SparkFun-Connectors_POWER_JACKPTH_BREAD J 0 40 N N 1 L N
-F0 "J" -300 150 45 H V L BNN
-F1 "SparkFun-Connectors_POWER_JACKPTH_BREAD" -300 -200 45 H V L BNN
-F2 "POWER_JACK_PTH_BREAD" 0 250 20 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PRT-10811" 0 300 60 H V C CNN
-$FPLIST
- *POWER_JACK_PTH_BREAD*
- *POWER_JACK_PTH_LOCK*
-$ENDFPLIST
-DRAW
-S -300 70 100 130 1 1 0 F
-P 2 1 0 0 -300 -100 -200 0 N
-P 2 1 0 0 -200 0 -100 -100 N
-P 2 1 0 0 -100 -100 0 -100 N
-P 2 1 0 0 0 -100 0 0 N
-P 2 1 0 0 0 -100 100 -100 N
-P 2 1 0 0 0 0 100 0 N
-X GND GND 200 -100 100 L 40 40 1 1 B
-X GNDBREAK GNDB 200 0 100 L 40 40 1 1 B
-X PWR PWR 200 100 100 L 40 40 1 1 B
-ENDDRAW
-ENDDEF
-#
-# SparkFun-Resistors_RESISTOR0402
-#
-DEF SparkFun-Resistors_RESISTOR0402 R 0 40 N N 1 L N
-F0 "R" -200 50 45 H V L BNN
-F1 "SparkFun-Resistors_RESISTOR0402" -200 -150 45 H V L BNN
-F2 "0402" 0 150 20 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 " " 0 200 60 H V C CNN
-$FPLIST
- *0402*
- *0603*
- *0805*
- *1206*
-$ENDFPLIST
-DRAW
-P 2 1 0 0 -100 0 -85 40 N
-P 2 1 0 0 -85 40 -60 -40 N
-P 2 1 0 0 -60 -40 -35 40 N
-P 2 1 0 0 -35 40 -10 -40 N
-P 2 1 0 0 -10 -40 15 40 N
-P 2 1 0 0 15 40 40 -40 N
-P 2 1 0 0 40 -40 65 40 N
-P 2 1 0 0 65 40 90 -40 N
-P 2 1 0 0 90 -40 100 0 N
-X 1 1 -200 0 100 R 40 40 1 1 P
-X 2 2 200 0 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
