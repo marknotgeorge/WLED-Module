@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>E:\Documents\KiCad Project\WLED Module\WLED Module.sch</source>
-    <date>07/11/2020 20:19:26</date>
+    <date>25/11/2020 14:46:22</date>
     <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -54,16 +54,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA207BE</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>POWER_JACKPTH_BREAD</value>
-      <footprint>Connectors:POWER_JACK_PTH_BREAD</footprint>
-      <fields>
-        <field name="Field4">PRT-10811</field>
-      </fields>
-      <libsource lib="SparkFun-Connectors" part="POWER_JACKPTH_BREAD" description="Power Jack Connector This is the standard 5.5mm barrel jack for power.&lt;br&gt;The PTH is the most common, proven, reliable, footprint.&lt;br&gt;The Slot footprint only works if the mill layer is transmitted to the PCB fab house so be warned.&lt;br&gt; &lt;b&gt;Here are the connectors we sell at SparkFun:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/119&quot;&gt;DC Barrel Power Jack/Connector&lt;/a&gt; (PRT-00119)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12748&quot;&gt;DC Barrel Power Jack/Connector (SMD)&lt;/a&gt; (PRT-12748)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10811&quot;&gt;DC Barrel Jack Adapter - Breadboard Compatible&lt;/a&gt; (PRT-10811)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;It is used on this SparkFun product (and many, many others):&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12757&quot;&gt;SparkFun RedBoard - Programmed with Arduino&lt;/a&gt; (DEV-12757)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;Also, if you need a mating power supply or connector, please check these out:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/298&quot;&gt;Wall Adapter Power Supply - 9VDC 650mA&lt;/a&gt; (TOL-00298)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10287&quot;&gt;DC Barrel Jack Adapter - Male&lt;/a&gt; (PRT-10287)&lt;/li&gt;&lt;/ul&gt;"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA23E6A</tstamp>
     </comp>
     <comp ref="C1">
       <value>EEU-FR0J102</value>
@@ -145,26 +135,15 @@
       <tstamp>5FA35EA6</tstamp>
     </comp>
     <comp ref="C4">
-      <value>10uF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C15850</field>
+        <field name="LCSC">C49678</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA4FD9F</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>10uf 25V</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C15850</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA53FC6</tstamp>
     </comp>
     <comp ref="Q1">
       <value>SS8050</value>
@@ -215,21 +194,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA31184</tstamp>
     </comp>
-    <comp ref="J5">
-      <value>JST SM Connector</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA3AA5A</tstamp>
-    </comp>
-    <comp ref="J4">
-      <value>Conn_01x03_Male</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA425CD</tstamp>
-    </comp>
     <comp ref="JP1">
       <value>SolderJumper_2_Open</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
@@ -238,8 +202,90 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA5C1DA</tstamp>
     </comp>
+    <comp ref="F1">
+      <value>10A</value>
+      <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAEE30A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_VH_B2PS-VH_1x02_P3.96mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAF2899</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB1187F</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3E7F5</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3EE31</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3F81E</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3FA55</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA53FC6</tstamp>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="Conn_01x03_Male">
       <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -305,6 +351,21 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -333,6 +394,20 @@
       <pins>
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
       </pins>
     </libpart>
     <libpart lib="RF_Module" part="ESP32-WROOM-32">
@@ -509,24 +584,6 @@
         <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SparkFun-Connectors" part="POWER_JACKPTH_BREAD">
-      <description>Power Jack Connector This is the standard 5.5mm barrel jack for power.&lt;br&gt;The PTH is the most common, proven, reliable, footprint.&lt;br&gt;The Slot footprint only works if the mill layer is transmitted to the PCB fab house so be warned.&lt;br&gt; &lt;b&gt;Here are the connectors we sell at SparkFun:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/119"&gt;DC Barrel Power Jack/Connector&lt;/a&gt; (PRT-00119)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12748"&gt;DC Barrel Power Jack/Connector (SMD)&lt;/a&gt; (PRT-12748)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10811"&gt;DC Barrel Jack Adapter - Breadboard Compatible&lt;/a&gt; (PRT-10811)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;It is used on this SparkFun product (and many, many others):&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12757"&gt;SparkFun RedBoard - Programmed with Arduino&lt;/a&gt; (DEV-12757)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;Also, if you need a mating power supply or connector, please check these out:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/298"&gt;Wall Adapter Power Supply - 9VDC 650mA&lt;/a&gt; (TOL-00298)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10287"&gt;DC Barrel Jack Adapter - Male&lt;/a&gt; (PRT-10287)&lt;/li&gt;&lt;/ul&gt;</description>
-      <footprints>
-        <fp>*POWER_JACK_PTH_BREAD*</fp>
-        <fp>*POWER_JACK_PTH_LOCK*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">POWER_JACKPTH_BREAD</field>
-        <field name="Footprint">POWER_JACK_PTH_BREAD</field>
-        <field name="Field4">PRT-10811</field>
-      </fields>
-      <pins>
-        <pin num="GND" name="GND" type="BiDi"/>
-        <pin num="GNDB" name="GNDBREAK" type="BiDi"/>
-        <pin num="PWR" name="PWR" type="BiDi"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -538,6 +595,9 @@
     <library logical="Jumper">
       <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
     </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
     <library logical="RF_Module">
       <uri>C:\Program Files\KiCad\share\kicad\library/RF_Module.lib</uri>
     </library>
@@ -547,164 +607,162 @@
     <library logical="SamacSys_Parts">
       <uri>C:/SamacSys_PCB_Library/KiCad/SamacSys_Parts.lib</uri>
     </library>
-    <library logical="SparkFun-Connectors">
-      <uri>E:/markn/Documents/KiCAD/Sparkfun/SparkFun-Connectors.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(U1-Pad14)">
-      <node ref="U1" pin="14"/>
+    <net code="1" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
     </net>
-    <net code="2" name="Net-(U1-Pad29)">
-      <node ref="U1" pin="29"/>
+    <net code="2" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
     </net>
-    <net code="3" name="Net-(U1-Pad26)">
-      <node ref="U1" pin="26"/>
+    <net code="3" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
     </net>
-    <net code="4" name="Net-(U1-Pad16)">
+    <net code="4" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad16)">
       <node ref="U1" pin="16"/>
     </net>
-    <net code="5" name="Net-(Q2-Pad1)">
+    <net code="22" name="GND">
+      <node ref="U1" pin="15"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="U1" pin="38"/>
+      <node ref="C2" pin="2"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="H4" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="23" name="EN">
+      <node ref="Q2" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="24" name="+3V3">
+      <node ref="C3" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="30" name="GPIO2">
+      <node ref="IC1" pin="12"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="31" name="Net-(IC1-Pad11)">
+      <node ref="JP1" pin="2"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="34" name="+5V">
+      <node ref="IC1" pin="14"/>
+      <node ref="J2" pin="3"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="C5" pin="2"/>
+      <node ref="F1" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="35" name="DAT">
+      <node ref="J2" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="36" name="Net-(Q2-Pad1)">
       <node ref="Q2" pin="1"/>
       <node ref="R2" pin="2"/>
     </net>
-    <net code="6" name="Net-(Q1-Pad1)">
-      <node ref="Q1" pin="1"/>
+    <net code="37" name="Net-(Q1-Pad1)">
       <node ref="R1" pin="1"/>
-    </net>
-    <net code="7" name="Net-(U1-Pad8)">
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="8" name="Net-(U1-Pad5)">
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="9" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="10" name="Net-(U1-Pad33)">
-      <node ref="U1" pin="33"/>
-    </net>
-    <net code="11" name="Net-(U1-Pad31)">
-      <node ref="U1" pin="31"/>
-    </net>
-    <net code="12" name="Net-(U1-Pad36)">
-      <node ref="U1" pin="36"/>
-    </net>
-    <net code="13" name="Net-(U1-Pad37)">
-      <node ref="U1" pin="37"/>
-    </net>
-    <net code="14" name="Net-(U1-Pad10)">
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="15" name="Net-(U1-Pad11)">
-      <node ref="U1" pin="11"/>
-    </net>
-    <net code="16" name="Net-(U1-Pad12)">
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="17" name="Net-(U1-Pad9)">
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="18" name="Net-(U1-Pad6)">
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="19" name="Net-(U1-Pad7)">
-      <node ref="U1" pin="7"/>
-    </net>
-    <net code="20" name="Net-(U1-Pad30)">
-      <node ref="U1" pin="30"/>
-    </net>
-    <net code="21" name="Net-(U1-Pad28)">
-      <node ref="U1" pin="28"/>
-    </net>
-    <net code="22" name="Net-(U1-Pad27)">
-      <node ref="U1" pin="27"/>
-    </net>
-    <net code="23" name="Net-(U1-Pad23)">
-      <node ref="U1" pin="23"/>
-    </net>
-    <net code="24" name="Net-(U1-Pad13)">
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="25" name="GPIO2">
-      <node ref="U1" pin="24"/>
-      <node ref="JP1" pin="1"/>
-      <node ref="IC1" pin="12"/>
-    </net>
-    <net code="26" name="Net-(IC1-Pad11)">
-      <node ref="R3" pin="2"/>
-      <node ref="JP1" pin="2"/>
-      <node ref="IC1" pin="11"/>
-    </net>
-    <net code="27" name="Net-(IC1-Pad8)">
-      <node ref="IC1" pin="8"/>
-    </net>
-    <net code="28" name="+3V3">
-      <node ref="J1" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U2" pin="2"/>
-      <node ref="C4" pin="2"/>
-    </net>
-    <net code="29" name="GND">
-      <node ref="U2" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="J1" pin="6"/>
-      <node ref="J5" pin="3"/>
-      <node ref="J3" pin="GNDB"/>
-      <node ref="C2" pin="2"/>
-      <node ref="U1" pin="38"/>
-      <node ref="C3" pin="2"/>
-      <node ref="IC1" pin="13"/>
-      <node ref="IC1" pin="7"/>
-      <node ref="U1" pin="15"/>
-      <node ref="C1" pin="2"/>
-      <node ref="J3" pin="GND"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="30" name="Net-(U1-Pad21)">
-      <node ref="U1" pin="21"/>
-    </net>
-    <net code="31" name="DAT">
-      <node ref="J4" pin="2"/>
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="32" name="Net-(J4-Pad3)">
-      <node ref="J5" pin="2"/>
-      <node ref="J4" pin="3"/>
-    </net>
-    <net code="33" name="Net-(J2-Pad2)">
-      <node ref="J4" pin="1"/>
-      <node ref="J2" pin="2"/>
-    </net>
-    <net code="34" name="+5V">
-      <node ref="J2" pin="3"/>
-      <node ref="J5" pin="1"/>
-      <node ref="U2" pin="3"/>
-      <node ref="J3" pin="PWR"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="IC1" pin="14"/>
-      <node ref="C5" pin="2"/>
-    </net>
-    <net code="35" name="Net-(IC1-Pad5)">
-      <node ref="IC1" pin="5"/>
-    </net>
-    <net code="36" name="EN">
-      <node ref="Q2" pin="3"/>
-      <node ref="U1" pin="3"/>
-      <node ref="R4" pin="2"/>
-      <node ref="C6" pin="1"/>
-    </net>
-    <net code="37" name="Net-(IC1-Pad9)">
-      <node ref="IC1" pin="9"/>
-    </net>
-    <net code="38" name="Net-(IC1-Pad10)">
-      <node ref="IC1" pin="10"/>
+      <node ref="Q1" pin="1"/>
     </net>
     <net code="39" name="Net-(IC1-Pad6)">
       <node ref="IC1" pin="6"/>
@@ -715,50 +773,42 @@
     <net code="41" name="Net-(IC1-Pad3)">
       <node ref="IC1" pin="3"/>
     </net>
-    <net code="42" name="Net-(IC1-Pad2)">
-      <node ref="IC1" pin="2"/>
-    </net>
-    <net code="43" name="Net-(IC1-Pad1)">
+    <net code="42" name="Net-(IC1-Pad1)">
       <node ref="IC1" pin="1"/>
     </net>
-    <net code="44" name="Net-(U1-Pad19)">
-      <node ref="U1" pin="19"/>
+    <net code="43" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
     </net>
-    <net code="45" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
+    <net code="44" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10"/>
     </net>
-    <net code="46" name="Net-(U1-Pad18)">
-      <node ref="U1" pin="18"/>
+    <net code="45" name="Net-(F1-Pad2)">
+      <node ref="J3" pin="1"/>
+      <node ref="F1" pin="2"/>
     </net>
-    <net code="47" name="Net-(U1-Pad17)">
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="48" name="Net-(U1-Pad22)">
-      <node ref="U1" pin="22"/>
-    </net>
-    <net code="49" name="RX">
-      <node ref="J1" pin="4"/>
+    <net code="46" name="RX">
       <node ref="U1" pin="34"/>
+      <node ref="J1" pin="4"/>
     </net>
-    <net code="50" name="TX">
-      <node ref="U1" pin="35"/>
+    <net code="47" name="TX">
       <node ref="J1" pin="5"/>
+      <node ref="U1" pin="35"/>
     </net>
-    <net code="51" name="RTS">
-      <node ref="Q2" pin="2"/>
+    <net code="48" name="RTS">
       <node ref="J1" pin="2"/>
       <node ref="R1" pin="2"/>
+      <node ref="Q2" pin="2"/>
     </net>
-    <net code="52" name="DTR">
-      <node ref="R2" pin="1"/>
+    <net code="49" name="DTR">
       <node ref="J1" pin="3"/>
+      <node ref="R2" pin="1"/>
       <node ref="Q1" pin="2"/>
     </net>
-    <net code="53" name="GPIO0">
+    <net code="50" name="GPIO0">
       <node ref="Q1" pin="3"/>
       <node ref="U1" pin="25"/>
     </net>
-    <net code="54" name="Net-(U1-Pad32)">
+    <net code="51" name="Net-(U1-Pad32)">
       <node ref="U1" pin="32"/>
     </net>
   </nets>
