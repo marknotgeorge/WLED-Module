@@ -18,10 +18,11 @@ $Comp
 L RF_Module:ESP32-WROOM-32D U1
 U 1 1 5FA1923B
 P 8350 2800
-F 0 "U1" H 8350 4381 50  0000 C CNN
-F 1 "ESP32-WROOM-32D" H 8350 4290 50  0000 C CNN
+F 0 "U1" H 8350 4471 50  0000 C CNN
+F 1 "ESP32-WROOM-32D" H 8350 4380 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 8350 1300 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 8050 2850 50  0001 C CNN
+F 4 "C473012" H 8350 4289 50  0000 C CNN "LCSC"
 	1    8350 2800
 	1    0    0    -1  
 $EndComp

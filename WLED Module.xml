@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>E:\Documents\KiCad Project\WLED Module\WLED Module.sch</source>
-    <date>10/02/2021 10:02:45</date>
+    <date>10/02/2021 10:19:22</date>
     <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -23,6 +23,9 @@
       <value>ESP32-WROOM-32D</value>
       <footprint>RF_Module:ESP32-WROOM-32</footprint>
       <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C473012</field>
+      </fields>
       <libsource lib="RF_Module" part="ESP32-WROOM-32D" description="RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA1923B</tstamp>

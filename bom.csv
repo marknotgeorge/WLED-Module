@@ -14,5 +14,5 @@ Comment,Designator,Footprint,LCSC
 "SolderJumper_2_Open","JP1","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",""
 "470R","R3","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","C17710"
 "10K","R4","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","C17414"
-"ESP32-WROOM-32D","U1","RF_Module:ESP32-WROOM-32",""
+"ESP32-WROOM-32D","U1","RF_Module:ESP32-WROOM-32","C473012"
 "AMS1117-3.3","U2","Package_TO_SOT_SMD:SOT-223-3_TabPin2","C6186"
