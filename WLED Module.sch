@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "WLED Module"
 Date ""
-Rev ""
-Comp ""
+Rev "v1.2"
+Comp "marknotgeorge"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -812,4 +812,6 @@ Wire Wire Line
 Wire Wire Line
 	1050 6700 1200 6700
 NoConn ~ 2500 6600
+Text Notes 3200 2000 0    50   ~ 0
+ESP-Prog Programming Interface
 $EndSCHEMATC
